@@ -35,7 +35,7 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local tween = game:GetService("TweenService")
 local Red = {RainbowColorValue = 0, HueSelectionPosition = 0}
-local LogoButton = [[12523036534]]
+local LogoButton = [[14210551183]]
 
 
 local function Tween(instance, properties,style,wa)
@@ -268,7 +268,7 @@ local library = {}
 function library:Window(text,text2,text3,logo,keybind)
 	local uihide = false
 	local abc = false
-	local logo = logo or 12523036534
+	local logo = logo or 14210551183
 	local currentpage = ""
 	local keybind = keybind or Enum.KeyCode.RightControl
 	local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
@@ -311,7 +311,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 1)
 	Logo.Size = UDim2.new(0, 25, 0, 25)
-	Logo.Image = "rbxassetid://"..tostring(12523036534)
+	Logo.Image = "rbxassetid://"..tostring(14210551183)
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
