@@ -3740,8 +3740,8 @@ H:AddLabel("https://discord.gg/pBduS7jeHr")
 H:AddLabel("Owner Friez Hub @Friez Scripts Script Creator V1")
 H:AddLabel("Devloper Friez Hub @Friez Scripts Script Creator V2")
  
-H:AddButton("Copy Youtube Friez Scripts",function()
-setclipboard("https://youtube.com/@Friez_Scripts")
+H:AddButton("Copy Discord Friez Scripts",function()
+setclipboard("https://discord.gg/pBduS7jeHr")
 end)
 
 H:AddButton("Copy Youtube Friez Scripts",function()
